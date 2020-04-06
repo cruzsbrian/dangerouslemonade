@@ -1,0 +1,14 @@
+body {
+    font-family: sans-serif;
+    background: #eee;
+    padding: 0 8em;
+}
+
+#navbar {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+#navbar li {
+    margin-right: 1em;
+}
