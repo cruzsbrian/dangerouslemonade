@@ -1,12 +1,15 @@
 <html>
     <head>
-        <title>dangerous lemonade</title>
+        <title>{% block titlebar %}{% endblock %}</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Titillium+Web:wght@900&display=swap" rel="stylesheet">
         <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
     </head>
     <body>
         <div id="page-container">
             <header id="header">
-                <h1>{{ pagetitle }}</h1>
+                <a href="/">
+                    {% block header %} {% endblock %}
+                </a>
             </header>
 
             <div id="content-wrap">

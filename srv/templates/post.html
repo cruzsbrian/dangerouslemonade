@@ -10,12 +10,5 @@ do not drink - risk of electric shock.
 {% endblock %}
 
 {% block content %}
-
-{% for p in allposts %}
-    <a href="post/{{ p['name'] }}" class="post-preview">
-        <h3 class="post-title">{{ p['title'] }}</h3>
-        <p class="post-date">{{ p['date'] }}</p>
-    </a>
-{% endfor %}
-
+<p> Test content </p>
 {% endblock %}

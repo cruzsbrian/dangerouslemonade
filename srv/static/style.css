@@ -1,7 +1,8 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     background: #eee;
     margin: 0;
+    font-size: 12pt;
 }
 
 #page-container {
@@ -22,13 +23,26 @@ body {
     width: 100%;
     margin: 0;
     background: #ddd;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+#header a {
+    text-decoration: none;
 }
 
 #header h1 {
     max-width: 8in;
     margin: 0 auto;
-    padding: 1rem;
-    font-size: 4rem;
+    font-size: 36pt;
+    font-family: 'Titillium Web', sans-serif;
+    color: #000;
+}
+
+#header p {
+    max-width: 8in;
+    margin: 0 auto;
+    color: #555;
 }
 
 #footer {
@@ -38,10 +52,27 @@ body {
     line-height: 2rem;
     box-sizing: border-box;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 9pt;
     background: #e5e5e5;
 }
 
 #footer a {
     color: #555;
+}
+
+
+.post-preview {
+    display: block;
+    margin: 2em 0;
+    text-decoration: none;
+}
+
+.post-preview .post-title {
+    color: #000;
+    margin: 0;
+}
+
+.post-preview .post-date {
+    color: #555;
+    margin: 0;
 }
