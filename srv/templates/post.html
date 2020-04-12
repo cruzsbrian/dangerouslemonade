@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block titlebar %}
-do not drink - risk of electric shock.
+do not drink: risk of electric shock.
 {% endblock %}
 
 {% block header %}
@@ -10,5 +10,11 @@ do not drink - risk of electric shock.
 {% endblock %}
 
 {% block content %}
+
+{% autoescape false %}
+{{ post_content }}
+{% endautoescape %}
+
 <p> Test content </p>
+<img src="{{ url_for('static', filename='testimg.jpeg') }}">
 {% endblock %}
