@@ -1,7 +1,16 @@
 click==7.1.1
 Flask==1.1.2
+greenlet==0.4.15
 itsdangerous==1.1.0
 Jinja2==2.11.1
+Markdown==3.2.1
+markdown-katex==202001.13b0
 MarkupSafe==1.1.1
+msgpack==1.0.0
+neovim==0.3.1
+pathlib2==2.3.5
+Pygments==2.6.1
+pynvim==0.4.1
+six==1.14.0
 uWSGI==2.0.18
 Werkzeug==1.0.1
