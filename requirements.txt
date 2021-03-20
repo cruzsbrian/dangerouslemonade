@@ -2,7 +2,7 @@ click==7.1.1
 Flask==1.1.2
 greenlet==0.4.15
 itsdangerous==1.1.0
-Jinja2==2.11.1
+Jinja2==2.11.3
 Markdown==3.2.1
 markdown-katex==202001.13b0
 MarkupSafe==1.1.1
